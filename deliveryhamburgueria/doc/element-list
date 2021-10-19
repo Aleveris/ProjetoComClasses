@@ -1,0 +1,8 @@
+com.everis.deliveryhamburgueria
+com.everis.deliveryhamburgueria.controllers
+com.everis.deliveryhamburgueria.dtos.requests
+com.everis.deliveryhamburgueria.dtos.responses
+com.everis.deliveryhamburgueria.entities
+com.everis.deliveryhamburgueria.mappers
+com.everis.deliveryhamburgueria.repositories
+com.everis.deliveryhamburgueria.services

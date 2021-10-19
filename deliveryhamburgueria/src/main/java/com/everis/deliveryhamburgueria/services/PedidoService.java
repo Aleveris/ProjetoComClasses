@@ -12,7 +12,25 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
+/**
+ * <p>A classe PedidoService e responsavel pela logica de negocio da aplicacao.</p>
+ *
+ * <p>No services foi utilizado excecao para tratar as mensagens de erros da aplicacao.</p>
+ * <p>Dentre as mensagens de erros estao 500 Internal Server Error, 406 Not Acceptable, 400 Bad Request, entre outras.</p>
+ * <p>E optamos por utilizar a funcao FindyById para tratar o erro 400 - Bad Request.</p>
+ *
+ * @author Alexandre Freire da Silva <alexandre.freiresilva @ everis.nttdata.com>
+ * @author Claudio Oliveira Souza <claudio.oliveirasouza @ everis.nttdata.com>
+ * @author Graziele Alves Camargo <graziele.alvescamargo @ everis.nttdata.com>
+ * @author Luiz Adolfo Tucunduva <luiz.adolfotucunduva @ everis.nttdata.com>
+ * @author Priscilla Ribeiro Boechat <priscilla.ribeiroboechat @ everis.nttdata.com>
+ * @author Roberto Sona Junior <roberto.sonajunior @ everis.nttdata.com>
+ * @author Rogerio Barros Costa  <rogerio.barroscosta @ everis.nttdata.com>
+ * @author Ygor Magalhaes Dias  <ygor.magalhaesdias @ everis.nttdata.com>
+ * @see ProdutoService
+ * @version JDK 11
+ * @since JDK 1.8
+ */
 @Service
 @RequiredArgsConstructor
 public class PedidoService {
@@ -116,7 +134,3 @@ public class PedidoService {
     }
 
 }
-
-
-
-
