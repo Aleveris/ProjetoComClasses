@@ -18,7 +18,7 @@ public class PedidoController {
     private final PedidoService pedidoService;
 
     //CadastrarPedido - POST - /pedido
-    @PostMapping
+    @PostMapping()
     public PedidoResponse salvar(@RequestBody PedidoRequest pedidoRequest){
         PedidoResponse pedidoResponse = pedidoService.criar(pedidoRequest);
 
